@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\WanderlustStudios.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\WanderlustStudiosEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Source\WanderlustStudios">
+      <UniqueIdentifier>{7396ABB6-7DB2-3E6B-A84F-799570124B8B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\WanderlustStudios\Variant_Horror">
+      <UniqueIdentifier>{7A7BD59E-003E-3778-8F1C-7FC81628A4BD}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\WanderlustStudios\Variant_Horror\HorrorCharacter.cpp">
+      <Filter>Source\WanderlustStudios\Variant_Horror</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\WanderlustStudios\Variant_Horror\HorrorCharacter.h">
+      <Filter>Source\WanderlustStudios\Variant_Horror</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\WanderlustStudios\Variant_Horror\HorrorGameMode.cpp">
+      <Filter>Source\WanderlustStudios\Variant_Horror</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\WanderlustStudios\Variant_Horror\HorrorGameMode.h">
+      <Filter>Source\WanderlustStudios\Variant_Horror</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\WanderlustStudios\Variant_Horror\HorrorPlayerController.cpp">
+      <Filter>Source\WanderlustStudios\Variant_Horror</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\WanderlustStudios\Variant_Horror\HorrorPlayerController.h">
+      <Filter>Source\WanderlustStudios\Variant_Horror</Filter>
+    </ClInclude>
+    <Filter Include="Source\WanderlustStudios\Variant_Horror\UI">
+      <UniqueIdentifier>{37DC53E9-5202-3141-A547-FFDC46E0700D}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\WanderlustStudios\Variant_Horror\UI\HorrorUI.cpp">
+      <Filter>Source\WanderlustStudios\Variant_Horror\UI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\WanderlustStudios\Variant_Horror\UI\HorrorUI.h">
+      <Filter>Source\WanderlustStudios\Variant_Horror\UI</Filter>
+    </ClInclude>
+    <Filter Include="Source\WanderlustStudios\Variant_Shooter">
+      <UniqueIdentifier>{CC589B56-FB66-3EB6-A8C8-2094B63BF8F3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\WanderlustStudios\Variant_Shooter\AI">
+      <UniqueIdentifier>{F43BDBCA-B59F-34C4-AA40-5F451304D374}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\WanderlustStudios\Variant_Shooter\AI\EnvQueryContext_Target.cpp">
+      <Filter>Source\WanderlustStudios\Variant_Shooter\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\WanderlustStudios\Variant_Shooter\AI\EnvQueryContext_Target.h">
+      <Filter>Source\WanderlustStudios\Variant_Shooter\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\WanderlustStudios\Variant_Shooter\AI\ShooterAIController.cpp">
+      <Filter>Source\WanderlustStudios\Variant_Shooter\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\WanderlustStudios\Variant_Shooter\AI\ShooterAIController.h">
+      <Filter>Source\WanderlustStudios\Variant_Shooter\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\WanderlustStudios\Variant_Shooter\AI\ShooterNPC.cpp">
+      <Filter>Source\WanderlustStudios\Variant_Shooter\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\WanderlustStudios\Variant_Shooter\AI\ShooterNPC.h">
+      <Filter>Source\WanderlustStudios\Variant_Shooter\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\WanderlustStudios\Variant_Shooter\AI\ShooterNPCSpawner.cpp">
+      <Filter>Source\WanderlustStudios\Variant_Shooter\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\WanderlustStudios\Variant_Shooter\AI\ShooterNPCSpawner.h">
+      <Filter>Source\WanderlustStudios\Variant_Shooter\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\WanderlustStudios\Variant_Shooter\AI\ShooterStateTreeUtility.cpp">
+      <Filter>Source\WanderlustStudios\Variant_Shooter\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\WanderlustStudios\Variant_Shooter\AI\ShooterStateTreeUtility.h">
+      <Filter>Source\WanderlustStudios\Variant_Shooter\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\WanderlustStudios\Variant_Shooter\ShooterCharacter.cpp">
+      <Filter>Source\WanderlustStudios\Variant_Shooter</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\WanderlustStudios\Variant_Shooter\ShooterCharacter.h">
+      <Filter>Source\WanderlustStudios\Variant_Shooter</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\WanderlustStudios\Variant_Shooter\ShooterGameMode.cpp">
+      <Filter>Source\WanderlustStudios\Variant_Shooter</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\WanderlustStudios\Variant_Shooter\ShooterGameMode.h">
+      <Filter>Source\WanderlustStudios\Variant_Shooter</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\WanderlustStudios\Variant_Shooter\ShooterPlayerController.cpp">
+      <Filter>Source\WanderlustStudios\Variant_Shooter</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\WanderlustStudios\Variant_Shooter\ShooterPlayerController.h">
+      <Filter>Source\WanderlustStudios\Variant_Shooter</Filter>
+    </ClInclude>
+    <Filter Include="Source\WanderlustStudios\Variant_Shooter\UI">
+      <UniqueIdentifier>{016D4958-F71E-3605-8F09-3A6B9208918A}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\WanderlustStudios\Variant_Shooter\UI\ShooterBulletCounterUI.cpp">
+      <Filter>Source\WanderlustStudios\Variant_Shooter\UI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\WanderlustStudios\Variant_Shooter\UI\ShooterBulletCounterUI.h">
+      <Filter>Source\WanderlustStudios\Variant_Shooter\UI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\WanderlustStudios\Variant_Shooter\UI\ShooterUI.cpp">
+      <Filter>Source\WanderlustStudios\Variant_Shooter\UI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\WanderlustStudios\Variant_Shooter\UI\ShooterUI.h">
+      <Filter>Source\WanderlustStudios\Variant_Shooter\UI</Filter>
+    </ClInclude>
+    <Filter Include="Source\WanderlustStudios\Variant_Shooter\Weapons">
+      <UniqueIdentifier>{F0BC812E-61BD-31E7-AD8A-7CF17C698B6F}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\WanderlustStudios\Variant_Shooter\Weapons\ShooterPickup.cpp">
+      <Filter>Source\WanderlustStudios\Variant_Shooter\Weapons</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\WanderlustStudios\Variant_Shooter\Weapons\ShooterPickup.h">
+      <Filter>Source\WanderlustStudios\Variant_Shooter\Weapons</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\WanderlustStudios\Variant_Shooter\Weapons\ShooterProjectile.cpp">
+      <Filter>Source\WanderlustStudios\Variant_Shooter\Weapons</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\WanderlustStudios\Variant_Shooter\Weapons\ShooterProjectile.h">
+      <Filter>Source\WanderlustStudios\Variant_Shooter\Weapons</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\WanderlustStudios\Variant_Shooter\Weapons\ShooterWeapon.cpp">
+      <Filter>Source\WanderlustStudios\Variant_Shooter\Weapons</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\WanderlustStudios\Variant_Shooter\Weapons\ShooterWeapon.h">
+      <Filter>Source\WanderlustStudios\Variant_Shooter\Weapons</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\WanderlustStudios\Variant_Shooter\Weapons\ShooterWeaponHolder.cpp">
+      <Filter>Source\WanderlustStudios\Variant_Shooter\Weapons</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\WanderlustStudios\Variant_Shooter\Weapons\ShooterWeaponHolder.h">
+      <Filter>Source\WanderlustStudios\Variant_Shooter\Weapons</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\WanderlustStudios\WanderlustStudios.Build.cs">
+      <Filter>Source\WanderlustStudios</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\WanderlustStudios\WanderlustStudios.cpp">
+      <Filter>Source\WanderlustStudios</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\WanderlustStudios\WanderlustStudios.h">
+      <Filter>Source\WanderlustStudios</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\WanderlustStudios\WanderlustStudiosCameraManager.cpp">
+      <Filter>Source\WanderlustStudios</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\WanderlustStudios\WanderlustStudiosCameraManager.h">
+      <Filter>Source\WanderlustStudios</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\WanderlustStudios\WanderlustStudiosCharacter.cpp">
+      <Filter>Source\WanderlustStudios</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\WanderlustStudios\WanderlustStudiosCharacter.h">
+      <Filter>Source\WanderlustStudios</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\WanderlustStudios\WanderlustStudiosGameMode.cpp">
+      <Filter>Source\WanderlustStudios</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\WanderlustStudios\WanderlustStudiosGameMode.h">
+      <Filter>Source\WanderlustStudios</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\WanderlustStudios\WanderlustStudiosPlayerController.cpp">
+      <Filter>Source\WanderlustStudios</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\WanderlustStudios\WanderlustStudiosPlayerController.h">
+      <Filter>Source\WanderlustStudios</Filter>
+    </ClInclude>
+    <None Include="..\..\WanderlustStudios.uproject" />
+  </ItemGroup>
+</Project>

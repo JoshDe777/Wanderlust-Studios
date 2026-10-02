@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"C:\\repositories\\personal\\Wanderlust-Studios\\code\\WanderlustStudios\\Source\\WanderlustStudios\\WanderlustStudios.Build.cs",
+		"C:\\repositories\\personal\\Wanderlust-Studios\\code\\WanderlustStudios\\Source\\WanderlustStudios.Target.cs",
+		"C:\\repositories\\personal\\Wanderlust-Studios\\code\\WanderlustStudios\\Source\\WanderlustStudiosEditor.Target.cs"
+	],
+	"EngineVersion": "5.8.3"
+}

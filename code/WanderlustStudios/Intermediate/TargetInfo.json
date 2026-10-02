@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "WanderlustStudios",
+			"Path": "..\\Source\\WanderlustStudios.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "WanderlustStudiosEditor",
+			"Path": "..\\Source\\WanderlustStudiosEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
