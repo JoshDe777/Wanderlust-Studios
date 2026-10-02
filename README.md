@@ -1,4 +1,4 @@
-# Wanderlust-Studios
+# Wanderlust Studios Game
 
 |  General Info  | |
 | ---|---|
