@@ -1,4 +1,4 @@
-// Copyright Epic Games, Inc. All Rights Reserved.
+﻿// Copyright Epic Games, Inc. All Rights Reserved.
 
 using UnrealBuildTool;
 
@@ -18,7 +18,8 @@ public class WanderlustStudios : ModuleRules
 			"StateTreeModule",
 			"GameplayStateTreeModule",
 			"UMG",
-			"Slate"
+			"Slate",
+			"AutomationTest"
 		});
 
 		PrivateDependencyModuleNames.AddRange(new string[] { });
@@ -30,9 +31,10 @@ public class WanderlustStudios : ModuleRules
 			"WanderlustStudios/Variant_Shooter",
 			"WanderlustStudios/Variant_Shooter/AI",
 			"WanderlustStudios/Variant_Shooter/UI",
-			"WanderlustStudios/Variant_Shooter/Weapons"
+			"WanderlustStudios/Variant_Shooter/Weapons",
+			"WanderlustStudios/Tests"
 		});
-
+		 
 		// Uncomment if you are using Slate UI
 		// PrivateDependencyModuleNames.AddRange(new string[] { "Slate", "SlateCore" });
 

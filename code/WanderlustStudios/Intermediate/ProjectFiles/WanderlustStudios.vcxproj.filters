@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
+    <None Include="..\..\.vsconfig" />
+    <None Include="..\..\Automation_WanderlustStudios.slnx" />
     <Filter Include="Config">
       <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
     </Filter>
@@ -31,6 +33,18 @@
     <Filter Include="Source\WanderlustStudios">
       <UniqueIdentifier>{7396ABB6-7DB2-3E6B-A84F-799570124B8B}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\WanderlustStudios\A_MapManager.cpp">
+      <Filter>Source\WanderlustStudios</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\WanderlustStudios\A_MapManager.h">
+      <Filter>Source\WanderlustStudios</Filter>
+    </ClInclude>
+    <Filter Include="Source\WanderlustStudios\Tests">
+      <UniqueIdentifier>{A91265D4-A664-3594-93AD-5FEFF9BD9DCB}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\WanderlustStudios\Tests\MapGeneratorTest.cpp">
+      <Filter>Source\WanderlustStudios\Tests</Filter>
+    </ClCompile>
     <Filter Include="Source\WanderlustStudios\Variant_Horror">
       <UniqueIdentifier>{7A7BD59E-003E-3778-8F1C-7FC81628A4BD}</UniqueIdentifier>
     </Filter>
@@ -190,6 +204,7 @@
     <ClInclude Include="..\..\Source\WanderlustStudios\WanderlustStudiosPlayerController.h">
       <Filter>Source\WanderlustStudios</Filter>
     </ClInclude>
+    <None Include="..\..\WanderlustStudios.slnx" />
     <None Include="..\..\WanderlustStudios.uproject" />
   </ItemGroup>
 </Project>

@@ -30,13 +30,13 @@ static_assert(!UE_WITH_CONSTINIT_UOBJECT, "This generated code can only be compi
 			SingletonFuncArray,
 			UE_ARRAY_COUNT(SingletonFuncArray),
 			PKG_CompiledIn | 0x00000000,
-			0x2043806D,
-			0x2B25A5C3,
+			0xBB4A9B11,
+			0x9C6196FB,
 			METADATA_PARAMS(0, nullptr)
 		};
 		UECodeGen_Private::ConstructUPackage(Z_Registration_Info_UPackage__Script_WanderlustStudios.OuterSingleton, PackageParams);
 	}
 	return Z_Registration_Info_UPackage__Script_WanderlustStudios.OuterSingleton;
 }
-static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_WanderlustStudios(Z_Construct_UPackage__Script_WanderlustStudios, TEXT("/Script/WanderlustStudios"), Z_Registration_Info_UPackage__Script_WanderlustStudios, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x2043806D, 0x2B25A5C3));
+static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_WanderlustStudios(Z_Construct_UPackage__Script_WanderlustStudios, TEXT("/Script/WanderlustStudios"), Z_Registration_Info_UPackage__Script_WanderlustStudios, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0xBB4A9B11, 0x9C6196FB));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
