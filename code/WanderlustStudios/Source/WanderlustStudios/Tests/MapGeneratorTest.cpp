@@ -1,8 +1,21 @@
 ﻿#if WITH_DEV_AUTOMATION_TESTS
 
 #include <vector>
+#include<memory>
 #include "Misc/AutomationTest.h"
+// Wanderlust members
 #include "A_MapManager.h"
+
+// using statements
+using namespace std;
+using WanderlustStudios::MapGeneration::AA_MapManager;
+using WanderlustStudios::MapGeneration::BASE_WIDTH;
+using WanderlustStudios::MapGeneration::MAX_UPSCALES;
+using WanderlustStudios::MapGeneration::FILL;
+using WanderlustStudios::MapGeneration::PASS_WEIGHT;
+using WanderlustStudios::MapGeneration::DiffNet;
+using WanderlustStudios::MapGeneration::DiffNetPixel;
+using WanderlustStudios::MapGeneration::Heightmap;
 
 // Test the generation of the default net
 IMPLEMENT_SIMPLE_AUTOMATION_TEST(FStartNetGenerationTest, "WanderlustStudios.Tests.StartNetGenerationTest", 
@@ -14,12 +27,12 @@ bool FStartNetGenerationTest::RunTest(const FString& Parameters) {
 	DiffNet result = AA_MapManager::GenerateStartNet();
 
 	// test that the output is a square of dims DEFAULT squared, and that there's at least one tile with a non-zero value.
-	TestEqual("Start Net Start size", result.count(), BASE_WIDTH * BASE_WIDTH);
-	TestGreaterThan("Start Net population", result.sum(), 0);
+	TestEqual("Start Net Start size", result.FlatDimensions(), BASE_WIDTH * BASE_WIDTH);
+	TestGreaterThan("Start Net population", result.Sum(), 0.0f);
 
 	// test fixed amount of starting points.
 	DiffNet res2 = AA_MapManager::GenerateStartNet(1);
-	TestEqual("Start Net Generation with Fixed Population", result.sum(), 1)
+	TestEqual("Start Net Generation with Fixed Population", result.Sum(), 1.0f);
 
 	return true;
 }
@@ -37,8 +50,9 @@ bool FDiffusionLayerAggregationTest::RunTest(const FString& Parameters) {
 	double runtime = FPlatformTime::Seconds() - startTime;
 	UE_LOG(LogTemp, Log, TEXT("DLA Algorithm completed in %.4f s, starting with a %dx%d grid, with %d recursion steps."), runtime, BASE_WIDTH, BASE_WIDTH, MAX_UPSCALES);
 
-	// attempt to 'jailbreak' the algorithm by bypassing the exit floor
-	AA_MapManager::DiffusionLayerAggregation(nullptr, nullptr, -1);
+	// attempt to 'jailbreak' the algorithm by bypassing the exit floor & nullify test if it's not a nullptr (== heightmap fed in.)
+	if (AA_MapManager::DiffusionLayerAggregation(nullptr, nullptr, nullptr, -1) != nullptr)
+		return false;
 
 	return true;
 }
@@ -48,25 +62,22 @@ IMPLEMENT_SIMPLE_AUTOMATION_TEST(FDiffusionRunTest, "WanderlustStudios.Tests.Dif
 	EAutomationTestFlags_ApplicationContextMask |
 	EAutomationTestFlags::ProductFilter)
 
-bool ::RunTest(const FString& Parameters) {
+bool FDiffusionRunTest::RunTest(const FString& Parameters) {
 	// generate default diffnet
-	DiffNet result = AA_MapManager::GenerateStartNet();
-	DiffNet start = result.Copy();
+	unique_ptr<DiffNet> result = make_unique<DiffNet>(AA_MapManager::GenerateStartNet());
+	unique_ptr<DiffNet> start = make_unique<DiffNet>(result->Copy());
 
-	TMap<FVector2D, TArray<FVector2D>> neighbours = {};
-	AA_MapManager::DiffusionPass(result, neighbours, FILL);
+	AA_MapManager::DiffusionPass(nullptr, result.get(), FILL);
 
 	// test output density
-	neighbours = {};
-	TestGreaterThan("Diffusion Density Test", result.sum(), FILL * result.count());
+	TestGreaterThan("Diffusion Density Test", result->Sum(), FILL * (float) result->FlatDimensions());
 	
 	// test with empty net, request 100% density
 	DiffNet empty = DiffNet();
-	AA_MapManager::DiffusionPass(empty, neighbours, FILL);
+	AA_MapManager::DiffusionPass(nullptr, &empty, FILL);
 
 	// test a request for 100% density
-	neighbours = {};
-	AA_MapManager::DiffusionPass(start, neighbours, 1.0f);
+	AA_MapManager::DiffusionPass(nullptr, start.get(), 1.0f);
 
 	return true;
 }
@@ -79,22 +90,21 @@ IMPLEMENT_SIMPLE_AUTOMATION_TEST(FDiffusionNetUpscalingTest, "WanderlustStudios.
 bool FDiffusionNetUpscalingTest::RunTest(const FString& Parameters) {
 	// do a diffusion run on a base map with exactly one starting point
 	DiffNet start = AA_MapManager::GenerateStartNet(1);
-	TMap<FVector2D, TArray<FVector2D>> neighbours = {};
-	AA_MapManager::DiffusionPass(start, neighbours, FILL);
+	AA_MapManager::DiffusionPass(nullptr, &start, FILL);
+	int oldDimensions = start.FlatDimensions();
 
-	DiffNet upscale = start.Upscale(neighbours);
-	TestEqual("Upscale = 4*Input", upscale.count(), 4 * start.count());
+	start.Upscale();
+	TestEqual("Upscale = 4*Input", start.FlatDimensions(), 4 * oldDimensions);
 	
-	// test adjacencies:
-	// - every tile has neighbours (should be guaranteed if exactly 1 starting point)
-	// - every tile has at most 8 neighbours (straight & diagonal adjacency)
-	// - every neighbour is a direct neighbour (distance <= sqrt(2) because diagonal adjacency possible from rasterisation)
-	for (FVector2D& tile : upscale) {
-		TestTrue("tile has neighbours", neighbours.Contains(tile));
-		TestLessEqual("1 <= n(neighbours) <= 8", neighbours[tile].Num(), 8);
-		for (FVector2D& n : neighbours[tile]) {
-			TestLessEqual("Distance to neighbour at most sqrt(2)", FVector2D::Distance(tile, n), sqrt(2));
-		}
+	// test adjacency
+	for (DiffNetPixel* tile : start.Enumerate()) {
+		// skip if starter pixel (no predecessor)
+		if (tile->predecessor == nullptr)
+			continue;
+
+		FVector2D tilePos = FVector2D(tile->gridCoords.first, tile->gridCoords.second);
+		FVector2D predTilePos = FVector2D(tile->predecessor->gridCoords.first, tile->predecessor->gridCoords.second);
+		TestLessEqual("Distance to predecessor at most sqrt(2)", FVector2D::Distance(tilePos, predTilePos), sqrt(2));
 	}
 
 	return true;
@@ -113,17 +123,31 @@ bool FHeightmapUpscalingTest::RunTest(const FString& Parameters) {
 	};
 
 	// upscale the given dummy and check for:
-	// - output dimensions (should be 8x8)
+	// - output dimensions (should be 8x8=64)
 	// - values & clamping (any negative or >1 values?)
+	Heightmap upscale = Heightmap(dummyHeightmap).Upscale();
+	TestEqual("Heightmap Upscale dimensions", upscale.dimensions(), 64);
+	for (auto& value : upscale.values()) {
+		TestGreaterEqual("Positive-only values", value, 0.0f);
+		TestLessEqual("Values in range [0, 1]", value, 1.0f);
+	}
 
 	// further tests for edge-cases:
 	// 1x1 'heightmap'
+	dummyHeightmap = {0.65f}; 
+	upscale = Heightmap(dummyHeightmap).Upscale();
+	TestEqual("Heightmap Upscale dimensions", upscale.dimensions(), 9);
+	for (auto& value : upscale.values()) {
+		TestGreaterEqual("Positive-only values", value, 0.0f);
+		TestLessEqual("Values in range [0, 1]", value, 1.0f);
+	}
+
 	// empty 0-value HM,
-	// empty 1-value HM
+	dummyHeightmap = {}; 
+	upscale = Heightmap(dummyHeightmap).Upscale();
+	TestEqual("Heightmap Upscale dimensions", upscale.dimensions(), 0);
 
 	return true;
 }
-
-
 
 #endif // WITH_DEV_AUTOMATION_TESTS

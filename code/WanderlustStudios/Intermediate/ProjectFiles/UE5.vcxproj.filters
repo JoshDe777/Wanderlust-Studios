@@ -107362,10 +107362,1150 @@
     <Filter Include="Plugins\Media\PixelStreaming2\Resources\WebServers">
       <UniqueIdentifier>{72E6CBC4-E205-349C-8D3F-41E01FB8DBE2}</UniqueIdentifier>
     </Filter>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\CHANGELOG.md">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\CONTRIBUTING.md">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers</Filter>
+    </None>
+    <Filter Include="Plugins\Media\PixelStreaming2\Resources\WebServers\Common">
+      <UniqueIdentifier>{04D68D98-E423-300E-A549-9C19AD5086DB}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Common\.gitignore">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Common</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Common\.lintstagedrc.mjs">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Common</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Common\.npmignore">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Common</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Common\.prettierignore">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Common</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Common\CHANGELOG.md">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Common</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Common\README.md">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Common</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Common\eslint.config.mjs">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Common</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Common\package.json">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Common</Filter>
+    </None>
+    <Filter Include="Plugins\Media\PixelStreaming2\Resources\WebServers\Common\protobuf">
+      <UniqueIdentifier>{06CC7FBE-A99C-3BEE-85C0-8F3C67749CF9}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Common\protobuf\CHANGELOG.md">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Common\protobuf</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Common\protobuf\signalling_messages.proto">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Common\protobuf</Filter>
+    </None>
+    <Filter Include="Plugins\Media\PixelStreaming2\Resources\WebServers\Common\src">
+      <UniqueIdentifier>{7B653E91-7266-3BFF-BB07-233FBFF8B6ED}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\Media\PixelStreaming2\Resources\WebServers\Common\src\Event">
+      <UniqueIdentifier>{6555F6D6-B79D-309B-9FA1-DF49F77548BB}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Common\src\Event\EventEmitter.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Common\src\Event</Filter>
+    </None>
+    <Filter Include="Plugins\Media\PixelStreaming2\Resources\WebServers\Common\src\Logger">
+      <UniqueIdentifier>{9C4B9375-B8F5-35B9-B90C-F35CB4B68866}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Common\src\Logger\Logger.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Common\src\Logger</Filter>
+    </None>
+    <Filter Include="Plugins\Media\PixelStreaming2\Resources\WebServers\Common\src\Messages">
+      <UniqueIdentifier>{6D2BCBA9-9D0F-3D9E-931C-4E216EEA1C59}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Common\src\Messages\base_message.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Common\src\Messages</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Common\src\Messages\message_helpers.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Common\src\Messages</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Common\src\Messages\message_registry.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Common\src\Messages</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Common\src\Messages\signalling_messages.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Common\src\Messages</Filter>
+    </None>
+    <Filter Include="Plugins\Media\PixelStreaming2\Resources\WebServers\Common\src\Protocol">
+      <UniqueIdentifier>{8B25CF97-2D3A-38A4-BDCE-62EE4495A9F8}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Common\src\Protocol\KeepaliveMonitor.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Common\src\Protocol</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Common\src\Protocol\SignallingProtocol.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Common\src\Protocol</Filter>
+    </None>
+    <Filter Include="Plugins\Media\PixelStreaming2\Resources\WebServers\Common\src\Transport">
+      <UniqueIdentifier>{6CE47FA6-79D5-3088-A094-7744029D52D0}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Common\src\Transport\ITransport.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Common\src\Transport</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Common\src\Transport\WebSocketTransport.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Common\src\Transport</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Common\src\Transport\WebSocketTransportNJS.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Common\src\Transport</Filter>
+    </None>
+    <Filter Include="Plugins\Media\PixelStreaming2\Resources\WebServers\Common\src\Util">
+      <UniqueIdentifier>{5751C141-5E3E-3C75-B7A4-1314DEF4B107}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Common\src\Util\SdpUtils.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Common\src\Util</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Common\src\pixelstreamingcommon.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Common\src</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Common\tsconfig.cjs.json">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Common</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Common\tsconfig.esm.json">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Common</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Common\tsconfig.json">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Common</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\DOWNLOAD_VERSION">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers</Filter>
+    </None>
+    <Filter Include="Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend">
+      <UniqueIdentifier>{6E33B8C5-AA83-3066-A396-9F3D0838698E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\.gitignore">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\README.md">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend</Filter>
+    </None>
+    <Filter Include="Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\implementations">
+      <UniqueIdentifier>{D2E80C69-FC60-3AE6-A1D9-421D5CE475DE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\implementations\angular">
+      <UniqueIdentifier>{20C2A227-D5F8-30CD-8A7F-F7DE3FDC9A07}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\implementations\angular\readme.md">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\implementations\angular</Filter>
+    </None>
+    <Filter Include="Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\implementations\react">
+      <UniqueIdentifier>{15879CD5-4E06-36CD-8F7B-4735D897D12E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\implementations\react\.prettierignore">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\implementations\react</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\implementations\react\.prettierrc.json">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\implementations\react</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\implementations\react\package.json">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\implementations\react</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\implementations\react\readme.md">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\implementations\react</Filter>
+    </None>
+    <Filter Include="Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\implementations\react\src">
+      <UniqueIdentifier>{128DF1F0-3FC6-3563-BBAC-2033F67B7DDF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\implementations\react\src\assets">
+      <UniqueIdentifier>{FF39F4E5-D6F2-31F5-86B0-B3F0E14D59BA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\implementations\react\src\assets\images">
+      <UniqueIdentifier>{B52D633C-53F1-3F65-AC11-4C2F734883C4}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\implementations\react\src\assets\images\favicon-16x16.png">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\implementations\react\src\assets\images</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\implementations\react\src\assets\images\favicon-32x32.png">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\implementations\react\src\assets\images</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\implementations\react\src\assets\images\favicon-96x96.png">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\implementations\react\src\assets\images</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\implementations\react\src\assets\images\favicon.ico">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\implementations\react\src\assets\images</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\implementations\react\src\assets\images\favicon.png">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\implementations\react\src\assets\images</Filter>
+    </None>
+    <Filter Include="Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\implementations\react\src\components">
+      <UniqueIdentifier>{8BA7F31C-A895-3A6F-B795-698D575024B1}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\implementations\react\src\components\App.tsx">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\implementations\react\src\components</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\implementations\react\src\components\PixelStreamingWrapper.tsx">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\implementations\react\src\components</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\implementations\react\src\index.html">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\implementations\react\src</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\implementations\react\src\index.tsx">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\implementations\react\src</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\implementations\react\tsconfig.json">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\implementations\react</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\implementations\react\webpack.common.js">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\implementations\react</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\implementations\react\webpack.dev.js">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\implementations\react</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\implementations\react\webpack.prod.js">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\implementations\react</Filter>
+    </None>
+    <Filter Include="Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\implementations\typescript">
+      <UniqueIdentifier>{BBB0E0BB-8651-3957-A1A2-B22DAB3FBE25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\implementations\typescript\dist">
+      <UniqueIdentifier>{5633868D-A543-3285-B849-AF6ECB3264B6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\implementations\typescript\dist\types">
+      <UniqueIdentifier>{B5896D75-0678-311E-93CB-AF705B572DFB}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\implementations\typescript\dist\types\player.d.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\implementations\typescript\dist\types</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\implementations\typescript\dist\types\showcase.d.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\implementations\typescript\dist\types</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\implementations\typescript\dist\types\stresstest.d.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\implementations\typescript\dist\types</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\implementations\typescript\dist\types\uiless.d.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\implementations\typescript\dist\types</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\implementations\typescript\package.json">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\implementations\typescript</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\implementations\typescript\readme.md">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\implementations\typescript</Filter>
+    </None>
+    <Filter Include="Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\implementations\typescript\src">
+      <UniqueIdentifier>{3EA1CC4B-0437-3180-BC8C-929AF58BA11B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\implementations\typescript\src\assets">
+      <UniqueIdentifier>{00FCCAC5-2C05-3E7C-8E15-DD1C8B9B84E7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\implementations\typescript\src\assets\css">
+      <UniqueIdentifier>{91282D3B-620A-349A-A06D-320BB6A97731}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\implementations\typescript\src\assets\css\login.css">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\implementations\typescript\src\assets\css</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\implementations\typescript\src\assets\css\showcase.css">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\implementations\typescript\src\assets\css</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\implementations\typescript\src\assets\css\stresstest.css">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\implementations\typescript\src\assets\css</Filter>
+    </None>
+    <Filter Include="Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\implementations\typescript\src\assets\images">
+      <UniqueIdentifier>{436E9610-C160-3C1C-B040-6F4A1FEBD40E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\implementations\typescript\src\assets\images\Aurora.jpg">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\implementations\typescript\src\assets\images</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\implementations\typescript\src\assets\images\Crunch.jpg">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\implementations\typescript\src\assets\images</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\implementations\typescript\src\assets\images\favicon-16x16.png">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\implementations\typescript\src\assets\images</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\implementations\typescript\src\assets\images\favicon-32x32.png">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\implementations\typescript\src\assets\images</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\implementations\typescript\src\assets\images\favicon-96x96.png">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\implementations\typescript\src\assets\images</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\implementations\typescript\src\assets\images\favicon.ico">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\implementations\typescript\src\assets\images</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\implementations\typescript\src\assets\images\favicon.png">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\implementations\typescript\src\assets\images</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\implementations\typescript\src\player.html">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\implementations\typescript\src</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\implementations\typescript\src\player.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\implementations\typescript\src</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\implementations\typescript\src\showcase.html">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\implementations\typescript\src</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\implementations\typescript\src\showcase.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\implementations\typescript\src</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\implementations\typescript\src\stresstest.html">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\implementations\typescript\src</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\implementations\typescript\src\stresstest.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\implementations\typescript\src</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\implementations\typescript\src\uiless.html">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\implementations\typescript\src</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\implementations\typescript\src\uiless.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\implementations\typescript\src</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\implementations\typescript\tsconfig.cjs.json">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\implementations\typescript</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\implementations\typescript\tsconfig.esm.json">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\implementations\typescript</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\implementations\typescript\tsconfig.json">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\implementations\typescript</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\implementations\typescript\webpack.base.js">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\implementations\typescript</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\implementations\typescript\webpack.dev.js">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\implementations\typescript</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\implementations\typescript\webpack.esmodule.js">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\implementations\typescript</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\implementations\typescript\webpack.prod.js">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\implementations\typescript</Filter>
+    </None>
+    <Filter Include="Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library">
+      <UniqueIdentifier>{EB2A1E78-5038-3E5F-B312-C2DD84FAF7AE}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\.cspell.json">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\.lintstagedrc.mjs">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\.npmignore">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\.prettierignore">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\CHANGELOG.md">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\eslint.config.mjs">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\jest.config.js">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\package.json">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\readme.md">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library</Filter>
+    </None>
+    <Filter Include="Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src">
+      <UniqueIdentifier>{DA2F6D99-735F-3AE1-8C0A-E93023F6DD55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\AFK">
+      <UniqueIdentifier>{F29A5EA2-DDEE-335D-8855-D1DEE52376B7}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\AFK\AFKController.test.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\AFK</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\AFK\AFKController.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\AFK</Filter>
+    </None>
+    <Filter Include="Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\Config">
+      <UniqueIdentifier>{FBB727DC-6399-3FCB-BBC4-08805DBE7600}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\Config\Config.test.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\Config</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\Config\Config.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\Config</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\Config\SettingBase.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\Config</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\Config\SettingFlag.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\Config</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\Config\SettingNumber.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\Config</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\Config\SettingOption.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\Config</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\Config\SettingText.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\Config</Filter>
+    </None>
+    <Filter Include="Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\DataChannel">
+      <UniqueIdentifier>{A53B69F9-0BAF-3436-83B7-BA7128BC5862}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\DataChannel\DataChannelController.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\DataChannel</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\DataChannel\DataChannelLatencyTestController.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\DataChannel</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\DataChannel\DataChannelLatencyTestResults.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\DataChannel</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\DataChannel\DataChannelSender.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\DataChannel</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\DataChannel\InitialSettings.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\DataChannel</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\DataChannel\LatencyTestResults.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\DataChannel</Filter>
+    </None>
+    <Filter Include="Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\FreezeFrame">
+      <UniqueIdentifier>{DBEF83E6-8C12-3211-8A73-800B02B2BFBA}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\FreezeFrame\FreezeFrame.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\FreezeFrame</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\FreezeFrame\FreezeFrameController.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\FreezeFrame</Filter>
+    </None>
+    <Filter Include="Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\Inputs">
+      <UniqueIdentifier>{8D2DEF8F-A431-31EA-8AA0-B8ED1C792544}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\Inputs\GamepadController.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\Inputs</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\Inputs\GamepadTypes.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\Inputs</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\Inputs\IInputController.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\Inputs</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\Inputs\InputClassesFactory.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\Inputs</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\Inputs\KeyCodes.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\Inputs</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\Inputs\KeyboardController.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\Inputs</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\Inputs\MouseButtons.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\Inputs</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\Inputs\MouseController.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\Inputs</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\Inputs\MouseControllerHovering.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\Inputs</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\Inputs\MouseControllerLocked.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\Inputs</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\Inputs\SpecialKeyCodes.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\Inputs</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\Inputs\TouchController.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\Inputs</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\Inputs\TouchControllerFake.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\Inputs</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\Inputs\XRGamepadController.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\Inputs</Filter>
+    </None>
+    <Filter Include="Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\PeerConnectionController">
+      <UniqueIdentifier>{120CE286-AA07-3F6D-B532-F08D284C72D6}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\PeerConnectionController\AggregatedStats.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\PeerConnectionController</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\PeerConnectionController\CandidatePairStats.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\PeerConnectionController</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\PeerConnectionController\CandidateStat.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\PeerConnectionController</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\PeerConnectionController\CodecStats.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\PeerConnectionController</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\PeerConnectionController\DataChannelStats.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\PeerConnectionController</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\PeerConnectionController\InboundRTPStats.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\PeerConnectionController</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\PeerConnectionController\InboundTrackStats.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\PeerConnectionController</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\PeerConnectionController\LatencyCalculator.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\PeerConnectionController</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\PeerConnectionController\OutBoundRTPStats.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\PeerConnectionController</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\PeerConnectionController\PeerConnectionController.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\PeerConnectionController</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\PeerConnectionController\SessionStats.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\PeerConnectionController</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\PeerConnectionController\StreamStats.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\PeerConnectionController</Filter>
+    </None>
+    <Filter Include="Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\PixelStreaming">
+      <UniqueIdentifier>{2F589743-2909-35DC-A063-E0EAB69CCB12}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\PixelStreaming\PixelStreaming.test.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\PixelStreaming</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\PixelStreaming\PixelStreaming.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\PixelStreaming</Filter>
+    </None>
+    <Filter Include="Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\UeInstanceMessage">
+      <UniqueIdentifier>{DC811FFD-2C23-3149-B159-2CE9F5E78610}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\UeInstanceMessage\ResponseController.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\UeInstanceMessage</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\UeInstanceMessage\SendMessageController.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\UeInstanceMessage</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\UeInstanceMessage\StreamMessageController.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\UeInstanceMessage</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\UeInstanceMessage\ToStreamerMessagesController.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\UeInstanceMessage</Filter>
+    </None>
+    <Filter Include="Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\Util">
+      <UniqueIdentifier>{E0457CD8-DFF9-35F3-9C52-15AC863EC7DC}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\Util\BrowserUtils.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\Util</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\Util\EventEmitter.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\Util</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\Util\FileUtil.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\Util</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\Util\IURLSearchParams.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\Util</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\Util\InputCoordTranslator.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\Util</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\Util\RTCUtils.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\Util</Filter>
+    </None>
+    <Filter Include="Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\VideoPlayer">
+      <UniqueIdentifier>{6C726D1E-0C86-39A2-A0B5-7E97C0CB517C}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\VideoPlayer\StreamController.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\VideoPlayer</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\VideoPlayer\VideoPlayer.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\VideoPlayer</Filter>
+    </None>
+    <Filter Include="Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\WebRtcPlayer">
+      <UniqueIdentifier>{E8CEDF5F-D980-3A16-9940-14AE2A80C287}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\WebRtcPlayer\WebRtcPlayerController.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\WebRtcPlayer</Filter>
+    </None>
+    <Filter Include="Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\WebXR">
+      <UniqueIdentifier>{A07701FE-80AE-39F3-AF4F-C4FF94E8678B}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\WebXR\WebXRController.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\WebXR</Filter>
+    </None>
+    <Filter Include="Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\__test__">
+      <UniqueIdentifier>{90993A9B-AAB8-3E1D-9386-A20CE1DED58F}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\__test__\mockMediaStream.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\__test__</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\__test__\mockRTCPeerConnection.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\__test__</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\__test__\mockRTCRtpReceiver.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\__test__</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\__test__\mockWebSocket.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\__test__</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src\pixelstreamingfrontend.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\src</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\tsconfig.cjs.json">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\tsconfig.esm.json">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\tsconfig.jest.json">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library\tsconfig.json">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\library</Filter>
+    </None>
+    <Filter Include="Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\ui-library">
+      <UniqueIdentifier>{B8984E9C-730C-3257-BBC9-7A3B9553D9DB}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\ui-library\.cspell.json">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\ui-library</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\ui-library\.lintstagedrc.mjs">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\ui-library</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\ui-library\.npmignore">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\ui-library</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\ui-library\.prettierignore">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\ui-library</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\ui-library\CHANGELOG.md">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\ui-library</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\ui-library\README.md">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\ui-library</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\ui-library\eslint.config.mjs">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\ui-library</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\ui-library\package.json">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\ui-library</Filter>
+    </None>
+    <Filter Include="Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\ui-library\src">
+      <UniqueIdentifier>{A065CABD-D620-3869-9AD8-976C6E0701D7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\ui-library\src\Application">
+      <UniqueIdentifier>{FAFB37F3-BF42-31D7-9C1C-BCDFCCBC33CF}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\ui-library\src\Application\Application.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\ui-library\src\Application</Filter>
+    </None>
+    <Filter Include="Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\ui-library\src\Config">
+      <UniqueIdentifier>{D01BCE66-8570-3FE1-86A9-B2F8EF44799D}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\ui-library\src\Config\ConfigUI.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\ui-library\src\Config</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\ui-library\src\Config\SettingUIBase.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\ui-library\src\Config</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\ui-library\src\Config\SettingUIFlag.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\ui-library\src\Config</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\ui-library\src\Config\SettingUINumber.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\ui-library\src\Config</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\ui-library\src\Config\SettingUIOption.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\ui-library\src\Config</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\ui-library\src\Config\SettingUIText.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\ui-library\src\Config</Filter>
+    </None>
+    <Filter Include="Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\ui-library\src\Overlay">
+      <UniqueIdentifier>{99953206-8122-39E0-B50F-09DAAF337E88}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\ui-library\src\Overlay\AFKOverlay.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\ui-library\src\Overlay</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\ui-library\src\Overlay\ActionOverlay.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\ui-library\src\Overlay</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\ui-library\src\Overlay\BaseOverlay.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\ui-library\src\Overlay</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\ui-library\src\Overlay\ConnectOverlay.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\ui-library\src\Overlay</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\ui-library\src\Overlay\DisconnectOverlay.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\ui-library\src\Overlay</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\ui-library\src\Overlay\ErrorOverlay.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\ui-library\src\Overlay</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\ui-library\src\Overlay\InfoOverlay.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\ui-library\src\Overlay</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\ui-library\src\Overlay\PlayOverlay.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\ui-library\src\Overlay</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\ui-library\src\Overlay\TextOverlay.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\ui-library\src\Overlay</Filter>
+    </None>
+    <Filter Include="Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\ui-library\src\Styles">
+      <UniqueIdentifier>{7D9B7247-2C2D-379F-AD99-8F7609E9BEB5}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\ui-library\src\Styles\PixelStreamingApplicationStyles.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\ui-library\src\Styles</Filter>
+    </None>
+    <Filter Include="Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\ui-library\src\UI">
+      <UniqueIdentifier>{BC7AA2C1-C7F5-349B-83B1-A8A28B879785}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\ui-library\src\UI\Controls.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\ui-library\src\UI</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\ui-library\src\UI\DataChannelLatencyTest.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\ui-library\src\UI</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\ui-library\src\UI\EditTextModal.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\ui-library\src\UI</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\ui-library\src\UI\FullscreenIcon.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\ui-library\src\UI</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\ui-library\src\UI\LabelledButton.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\ui-library\src\UI</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\ui-library\src\UI\LatencyTest.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\ui-library\src\UI</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\ui-library\src\UI\SessionTest.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\ui-library\src\UI</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\ui-library\src\UI\SettingsIcon.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\ui-library\src\UI</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\ui-library\src\UI\SettingsPanel.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\ui-library\src\UI</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\ui-library\src\UI\StatsIcon.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\ui-library\src\UI</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\ui-library\src\UI\StatsPanel.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\ui-library\src\UI</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\ui-library\src\UI\UIConfigurationTypes.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\ui-library\src\UI</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\ui-library\src\UI\VideoQpIndicator.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\ui-library\src\UI</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\ui-library\src\UI\XRIcon.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\ui-library\src\UI</Filter>
+    </None>
+    <Filter Include="Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\ui-library\src\Util">
+      <UniqueIdentifier>{93EE1350-6985-33CF-B08F-7BD4B2757256}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\ui-library\src\Util\MathUtils.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\ui-library\src\Util</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\ui-library\src\pixelstreamingfrontend-ui.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\ui-library\src</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\ui-library\tsconfig.cjs.json">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\ui-library</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\ui-library\tsconfig.esm.json">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\ui-library</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\ui-library\tsconfig.json">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Frontend\ui-library</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\LICENSE.md">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers</Filter>
+    </None>
+    <Filter Include="Plugins\Media\PixelStreaming2\Resources\WebServers\Matchmaker">
+      <UniqueIdentifier>{21814389-7898-38FD-AB5E-E5484E84CCD6}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Matchmaker\.gitignore">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Matchmaker</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Matchmaker\README.md">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Matchmaker</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\NODE_VERSION">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\README.md">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\RELEASE_BRANCHING.md">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\RELEASE_VERSION">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\RELEASING.md">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\SECURITY.md">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers</Filter>
+    </None>
+    <Filter Include="Plugins\Media\PixelStreaming2\Resources\WebServers\SFU">
+      <UniqueIdentifier>{5D6AE58F-65AD-3D90-BA6D-18D24F38D121}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\SFU\.dockerignore">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\SFU</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\SFU\CHANGELOG.md">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\SFU</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\SFU\Dockerfile">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\SFU</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\SFU\README.md">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\SFU</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\SFU\config.js">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\SFU</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\SFU\package.json">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\SFU</Filter>
+    </None>
+    <Filter Include="Plugins\Media\PixelStreaming2\Resources\WebServers\SFU\platform_scripts">
+      <UniqueIdentifier>{06222F07-F16B-36DA-AFF5-551DAF33FA1A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\Media\PixelStreaming2\Resources\WebServers\SFU\platform_scripts\bash">
+      <UniqueIdentifier>{00C8CBE0-5D8E-3363-9C70-E23E8DF6F1EF}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\SFU\platform_scripts\bash\Dockerfile">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\SFU\platform_scripts\bash</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\SFU\platform_scripts\bash\common_utils.sh">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\SFU\platform_scripts\bash</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\SFU\platform_scripts\bash\docker-build.sh">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\SFU\platform_scripts\bash</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\SFU\platform_scripts\bash\docker-start.sh">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\SFU\platform_scripts\bash</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\SFU\platform_scripts\bash\docker-stop.sh">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\SFU\platform_scripts\bash</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\SFU\platform_scripts\bash\run_cloud.sh">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\SFU\platform_scripts\bash</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\SFU\platform_scripts\bash\run_local.sh">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\SFU\platform_scripts\bash</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\SFU\platform_scripts\bash\setup.sh">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\SFU\platform_scripts\bash</Filter>
+    </None>
+    <Filter Include="Plugins\Media\PixelStreaming2\Resources\WebServers\SFU\platform_scripts\cmd">
+      <UniqueIdentifier>{F70C8C17-A9D8-3C0A-96BC-E3B000D6A970}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\SFU\platform_scripts\cmd\run_cloud.bat">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\SFU\platform_scripts\cmd</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\SFU\platform_scripts\cmd\run_local.bat">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\SFU\platform_scripts\cmd</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\SFU\platform_scripts\cmd\setup.bat">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\SFU\platform_scripts\cmd</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\SFU\platform_scripts\cmd\setup_node.bat">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\SFU\platform_scripts\cmd</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\SFU\sfu_server.js">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\SFU</Filter>
+    </None>
+    <Filter Include="Plugins\Media\PixelStreaming2\Resources\WebServers\SignallingWebServer">
+      <UniqueIdentifier>{78B02931-EE0C-31CD-81B7-00EB32070302}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\SignallingWebServer\.gitignore">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\SignallingWebServer</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\SignallingWebServer\.lintstagedrc.mjs">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\SignallingWebServer</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\SignallingWebServer\.prettierignore">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\SignallingWebServer</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\SignallingWebServer\CHANGELOG.md">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\SignallingWebServer</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\SignallingWebServer\Dockerfile">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\SignallingWebServer</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\SignallingWebServer\README.md">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\SignallingWebServer</Filter>
+    </None>
+    <Filter Include="Plugins\Media\PixelStreaming2\Resources\WebServers\SignallingWebServer\apidoc">
+      <UniqueIdentifier>{2B28E2C2-09C9-3584-A235-5DC3838CDA93}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\SignallingWebServer\apidoc\api-definition-base.yml">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\SignallingWebServer\apidoc</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\SignallingWebServer\config.json">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\SignallingWebServer</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\SignallingWebServer\eslint.config.mjs">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\SignallingWebServer</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\SignallingWebServer\from_cirrus.md">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\SignallingWebServer</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\SignallingWebServer\package.json">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\SignallingWebServer</Filter>
+    </None>
+    <Filter Include="Plugins\Media\PixelStreaming2\Resources\WebServers\SignallingWebServer\platform_scripts">
+      <UniqueIdentifier>{49263BAF-781F-33E4-9F13-21427A90927D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\Media\PixelStreaming2\Resources\WebServers\SignallingWebServer\platform_scripts\bash">
+      <UniqueIdentifier>{3AACC52D-E648-3BB6-BFF5-ABF5057726BB}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\SignallingWebServer\platform_scripts\bash\README.txt">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\SignallingWebServer\platform_scripts\bash</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\SignallingWebServer\platform_scripts\bash\common.sh">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\SignallingWebServer\platform_scripts\bash</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\SignallingWebServer\platform_scripts\bash\docker-build-wilbur.sh">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\SignallingWebServer\platform_scripts\bash</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\SignallingWebServer\platform_scripts\bash\docker-start-turn.sh">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\SignallingWebServer\platform_scripts\bash</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\SignallingWebServer\platform_scripts\bash\docker-start-wilbur-local.sh">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\SignallingWebServer\platform_scripts\bash</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\SignallingWebServer\platform_scripts\bash\docker-start-wilbur-with-turn.sh">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\SignallingWebServer\platform_scripts\bash</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\SignallingWebServer\platform_scripts\bash\docker-start-wilbur.sh">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\SignallingWebServer\platform_scripts\bash</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\SignallingWebServer\platform_scripts\bash\docker-stop-all.sh">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\SignallingWebServer\platform_scripts\bash</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\SignallingWebServer\platform_scripts\bash\docker-stop-turn.sh">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\SignallingWebServer\platform_scripts\bash</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\SignallingWebServer\platform_scripts\bash\docker-stop-wilbur.sh">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\SignallingWebServer\platform_scripts\bash</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\SignallingWebServer\platform_scripts\bash\setup.sh">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\SignallingWebServer\platform_scripts\bash</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\SignallingWebServer\platform_scripts\bash\start.sh">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\SignallingWebServer\platform_scripts\bash</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\SignallingWebServer\platform_scripts\bash\start_turn.sh">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\SignallingWebServer\platform_scripts\bash</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\SignallingWebServer\platform_scripts\bash\start_with_stun.sh">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\SignallingWebServer\platform_scripts\bash</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\SignallingWebServer\platform_scripts\bash\start_with_turn.sh">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\SignallingWebServer\platform_scripts\bash</Filter>
+    </None>
+    <Filter Include="Plugins\Media\PixelStreaming2\Resources\WebServers\SignallingWebServer\platform_scripts\cmd">
+      <UniqueIdentifier>{59BE5819-31A4-371F-B0B8-DF45A8188B8A}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\SignallingWebServer\platform_scripts\cmd\README.txt">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\SignallingWebServer\platform_scripts\cmd</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\SignallingWebServer\platform_scripts\cmd\common.bat">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\SignallingWebServer\platform_scripts\cmd</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\SignallingWebServer\platform_scripts\cmd\setup.bat">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\SignallingWebServer\platform_scripts\cmd</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\SignallingWebServer\platform_scripts\cmd\start.bat">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\SignallingWebServer\platform_scripts\cmd</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\SignallingWebServer\platform_scripts\cmd\start_turn.bat">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\SignallingWebServer\platform_scripts\cmd</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\SignallingWebServer\platform_scripts\cmd\start_with_stun.bat">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\SignallingWebServer\platform_scripts\cmd</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\SignallingWebServer\platform_scripts\cmd\start_with_turn.bat">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\SignallingWebServer\platform_scripts\cmd</Filter>
+    </None>
+    <Filter Include="Plugins\Media\PixelStreaming2\Resources\WebServers\SignallingWebServer\src">
+      <UniqueIdentifier>{2C9E9AF2-06CA-3420-BE34-22E24139740F}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\SignallingWebServer\src\InputHandler.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\SignallingWebServer\src</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\SignallingWebServer\src\Utils.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\SignallingWebServer\src</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\SignallingWebServer\src\index.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\SignallingWebServer\src</Filter>
+    </None>
+    <Filter Include="Plugins\Media\PixelStreaming2\Resources\WebServers\SignallingWebServer\src\paths">
+      <UniqueIdentifier>{2DC2F95D-4870-32A8-873B-3380111AAE1B}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\SignallingWebServer\src\paths\config.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\SignallingWebServer\src\paths</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\SignallingWebServer\src\paths\players.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\SignallingWebServer\src\paths</Filter>
+    </None>
+    <Filter Include="Plugins\Media\PixelStreaming2\Resources\WebServers\SignallingWebServer\src\paths\players">
+      <UniqueIdentifier>{F59F8A7A-D93D-38FC-8948-ED6F525BE168}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\SignallingWebServer\src\paths\players\{playerId}.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\SignallingWebServer\src\paths\players</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\SignallingWebServer\src\paths\status.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\SignallingWebServer\src\paths</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\SignallingWebServer\src\paths\streamers.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\SignallingWebServer\src\paths</Filter>
+    </None>
+    <Filter Include="Plugins\Media\PixelStreaming2\Resources\WebServers\SignallingWebServer\src\paths\streamers">
+      <UniqueIdentifier>{7FFE371A-085E-3C1B-BB3F-136B6BE42025}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\SignallingWebServer\src\paths\streamers\{streamerId}.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\SignallingWebServer\src\paths\streamers</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\SignallingWebServer\tsconfig.json">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\SignallingWebServer</Filter>
+    </None>
+    <Filter Include="Plugins\Media\PixelStreaming2\Resources\WebServers\SignallingWebServer\www">
+      <UniqueIdentifier>{6C2E62B5-E2ED-3212-8294-B20590807F42}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\SignallingWebServer\www\43ef81525e6853dc.ico">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\SignallingWebServer\www</Filter>
+    </None>
+    <Filter Include="Plugins\Media\PixelStreaming2\Resources\WebServers\SignallingWebServer\www\css">
+      <UniqueIdentifier>{902E4FC2-A6AE-3C5C-8E4A-9439FA0A315B}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\SignallingWebServer\www\css\showcase.css">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\SignallingWebServer\www\css</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\SignallingWebServer\www\css\stresstest.css">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\SignallingWebServer\www\css</Filter>
+    </None>
+    <Filter Include="Plugins\Media\PixelStreaming2\Resources\WebServers\SignallingWebServer\www\images">
+      <UniqueIdentifier>{3F3FD486-F90E-3061-A15E-5BB08EAF0249}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\SignallingWebServer\www\images\Aurora.jpg">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\SignallingWebServer\www\images</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\SignallingWebServer\www\images\Crunch.jpg">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\SignallingWebServer\www\images</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\SignallingWebServer\www\images\favicon-16x16.png">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\SignallingWebServer\www\images</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\SignallingWebServer\www\images\favicon-32x32.png">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\SignallingWebServer\www\images</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\SignallingWebServer\www\images\favicon-96x96.png">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\SignallingWebServer\www\images</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\SignallingWebServer\www\images\favicon.png">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\SignallingWebServer\www\images</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\SignallingWebServer\www\player.html">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\SignallingWebServer\www</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\SignallingWebServer\www\player.js">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\SignallingWebServer\www</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\SignallingWebServer\www\showcase.html">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\SignallingWebServer\www</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\SignallingWebServer\www\showcase.js">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\SignallingWebServer\www</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\SignallingWebServer\www\stresstest.html">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\SignallingWebServer\www</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\SignallingWebServer\www\stresstest.js">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\SignallingWebServer\www</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\SignallingWebServer\www\uiless.html">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\SignallingWebServer\www</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\SignallingWebServer\www\uiless.js">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\SignallingWebServer\www</Filter>
+    </None>
+    <Filter Include="Plugins\Media\PixelStreaming2\Resources\WebServers\Signalling">
+      <UniqueIdentifier>{8E95213F-99B1-3DB7-BFDC-E17E3325F4E4}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Signalling\.gitignore">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Signalling</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Signalling\.lintstagedrc.mjs">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Signalling</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Signalling\.npmignore">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Signalling</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Signalling\.prettierignore">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Signalling</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Signalling\CHANGELOG.md">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Signalling</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Signalling\README.md">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Signalling</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Signalling\eslint.config.mjs">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Signalling</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Signalling\package.json">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Signalling</Filter>
+    </None>
+    <Filter Include="Plugins\Media\PixelStreaming2\Resources\WebServers\Signalling\src">
+      <UniqueIdentifier>{2424CBDE-20B9-3C9E-8DAE-219EC1C95397}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Signalling\src\Logger.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Signalling\src</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Signalling\src\LoggingUtils.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Signalling\src</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Signalling\src\PlayerConnection.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Signalling\src</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Signalling\src\PlayerRegistry.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Signalling\src</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Signalling\src\SFUConnection.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Signalling\src</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Signalling\src\SignallingServer.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Signalling\src</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Signalling\src\StreamerConnection.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Signalling\src</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Signalling\src\StreamerRegistry.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Signalling\src</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Signalling\src\Utils.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Signalling\src</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Signalling\src\WebServer.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Signalling\src</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Signalling\src\pixelstreamingsignalling.ts">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Signalling\src</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Signalling\tsconfig.cjs.json">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Signalling</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Signalling\tsconfig.esm.json">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Signalling</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\Signalling\tsconfig.json">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers\Signalling</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\eslint.config.mjs">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers</Filter>
+    </None>
     <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\get_ps_servers.bat">
       <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers</Filter>
     </None>
     <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\get_ps_servers.sh">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\package-lock.json">
+      <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files\Epic Games\UE_5.8\Engine\Plugins\Media\PixelStreaming2\Resources\WebServers\package.json">
       <Filter>Plugins\Media\PixelStreaming2\Resources\WebServers</Filter>
     </None>
     <Filter Include="Plugins\Media\PixelStreaming2\Source">

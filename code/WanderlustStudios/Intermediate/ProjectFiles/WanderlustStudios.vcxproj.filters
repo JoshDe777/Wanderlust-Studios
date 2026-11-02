@@ -39,6 +39,24 @@
     <ClInclude Include="..\..\Source\WanderlustStudios\A_MapManager.h">
       <Filter>Source\WanderlustStudios</Filter>
     </ClInclude>
+    <Filter Include="Source\WanderlustStudios\MapGeneration">
+      <UniqueIdentifier>{92FADAF8-48F6-34B6-9EB7-184E69847607}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\WanderlustStudios\MapGeneration\DiffNet.cpp">
+      <Filter>Source\WanderlustStudios\MapGeneration</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\WanderlustStudios\MapGeneration\DiffNet.h">
+      <Filter>Source\WanderlustStudios\MapGeneration</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\WanderlustStudios\MapGeneration\Heightmap.cpp">
+      <Filter>Source\WanderlustStudios\MapGeneration</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\WanderlustStudios\MapGeneration\Heightmap.h">
+      <Filter>Source\WanderlustStudios\MapGeneration</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\WanderlustStudios\MapGeneration\MapGenUtils.h">
+      <Filter>Source\WanderlustStudios\MapGeneration</Filter>
+    </ClInclude>
     <Filter Include="Source\WanderlustStudios\Tests">
       <UniqueIdentifier>{A91265D4-A664-3594-93AD-5FEFF9BD9DCB}</UniqueIdentifier>
     </Filter>
